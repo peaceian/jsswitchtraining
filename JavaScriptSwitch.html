@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScriptSwitch</title>
+    <style>
+        
+        .test {text-align: center;
+            color: blue;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="test" id='test'></h1>
+
+    <script>
+        let x = prompt('請輸入級數，ex:10,20,30......', '');
+        switch (x) {
+            case '10': document.getElementById('test').innerHTML = 'Lv.10'; break;
+            case '20': document.getElementById('test').innerHTML = 'Lv.20'; break;
+            case '30': document.getElementById('test').innerHTML = 'Lv.30'; break;
+            case '40': document.getElementById('test').innerHTML = 'Lv.40'; break;
+            case '50': document.getElementById('test').innerHTML = 'Lv.50'; break;
+            case '60': document.getElementById('test').innerHTML = 'Lv.60'; break;
+            case '70': document.getElementById('test').innerHTML = 'Lv.70'; break;
+            case '80': document.getElementById('test').innerHTML = 'Lv.80'; break;
+            case '90': document.getElementById('test').innerHTML = 'Lv.90'; break;
+            case '100': document.getElementById('test').innerHTML = 'Lv.100'; break;
+            default: document.write('Please check the score key in correct or not');
+        }
+    </script>
+</body>
+
+</html>
